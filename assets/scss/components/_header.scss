@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  height: 48px;
+  background: $grey;
+  display: flex;
+  align-items: center;
+
+  .header__wrapper {
+    max-width: 98%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      color: $white;
+      font-family: $poppins_font;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+
+      span {
+        color: $green;
+      }
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      li {
+        color: $white;
+        font-family: $poppins_font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.79px;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
