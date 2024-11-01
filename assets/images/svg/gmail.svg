@@ -1,0 +1,32 @@
+<svg width="44.000000" height="44.000000" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip39_4548">
+			<rect id="gmail 1" rx="0.000000" width="23.000000" height="23.000000" transform="translate(10.500000 10.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip39_4547">
+			<rect id="Frame 11" rx="5.500000" width="43.000000" height="43.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<radialGradient gradientTransform="translate(-7.62939e-06 3.8147e-06) rotate(45) scale(62.2254 62.2254)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_39_4547_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#4285F4"/>
+			<stop offset="0.359626" stop-color="#EA4335"/>
+			<stop offset="0.684867" stop-color="#FBBC05"/>
+			<stop offset="1.000000" stop-color="#34A853"/>
+		</radialGradient>
+	</defs>
+	<rect id="Frame 11" rx="5.500000" width="43.000000" height="43.000000" transform="translate(0.500000 0.500000)" fill="url(#paint_radial_39_4547_0)" fill-opacity="0.250000"/>
+	<g clip-path="url(#clip39_4547)">
+		<rect id="gmail 1" rx="0.000000" width="23.000000" height="23.000000" transform="translate(10.500000 10.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip39_4548)">
+			<path id="Vector" d="M26.53 16.39L22.04 19.89L17.45 16.39L17.45 16.39L17.46 16.39L17.46 21.3L21.99 24.88L26.53 21.44L26.53 16.39Z" fill="#EA4335" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M27.71 15.53L26.53 16.39L26.53 21.44L30.24 18.59L30.24 16.87C30.24 16.87 29.79 14.42 27.71 15.53Z" fill="#FBBC05" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M26.53 21.44L26.53 27.99L29.38 27.99C29.38 27.99 30.19 27.91 30.24 26.98L30.24 18.59L26.53 21.44Z" fill="#34A853" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M17.46 28L17.46 21.3L17.45 21.3L17.46 28Z" fill="#C5221F" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M17.45 16.39L16.28 15.54C14.2 14.43 13.75 16.88 13.75 16.88L13.75 18.59L17.45 21.3L17.45 16.39Z" fill="#C5221F" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M17.45 16.39L17.45 21.3L17.46 21.3L17.46 16.39L17.45 16.39Z" fill="#C5221F" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M13.75 18.6L13.75 26.99C13.8 27.91 14.61 28 14.61 28L17.46 28L17.45 21.3L13.75 18.6Z" fill="#4285F4" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

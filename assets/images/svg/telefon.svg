@@ -1,0 +1,34 @@
+<svg width="44.000000" height="44.000000" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip39_4581">
+			<rect id="phone 1" rx="0.000000" width="19.000000" height="19.000000" transform="translate(12.500000 12.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip39_4580">
+			<rect id="Frame 11" rx="5.500000" width="43.000000" height="43.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="19.858912" y1="16.866333" x2="19.858912" y2="31.411739" id="paint_linear_39_4582_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00EE7A"/>
+			<stop offset="1.000000" stop-color="#00C853"/>
+		</linearGradient>
+		<radialGradient gradientTransform="translate(25.7692 24.711) rotate(78.4769) scale(6.83853 6.83853)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_39_4583_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00EE7A"/>
+			<stop offset="1.000000" stop-color="#00C853"/>
+		</radialGradient>
+		<radialGradient gradientTransform="translate(15.5013 14.4437) rotate(78.4769) scale(6.83853 6.83853)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_39_4584_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00EE7A"/>
+			<stop offset="1.000000" stop-color="#00C853"/>
+		</radialGradient>
+	</defs>
+	<rect id="Frame 11" rx="5.500000" width="43.000000" height="43.000000" transform="translate(0.500000 0.500000)" fill="#00C853" fill-opacity="0.250000"/>
+	<g clip-path="url(#clip39_4580)">
+		<rect id="phone 1" rx="0.000000" width="19.000000" height="19.000000" transform="translate(12.500000 12.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip39_4581)">
+			<path id="Vector" d="M12.6 16.86C12.49 18.69 12.83 20.52 13.57 22.33C14.31 24.14 15.39 25.76 16.81 27.18C18.23 28.6 19.85 29.68 21.66 30.42C23.47 31.16 25.29 31.48 27.13 31.39L27.06 27.25C24.29 27.25 21.93 26.27 19.97 24.32C18.02 22.36 17.04 20 17.04 17.23L12.6 16.86Z" fill="url(#paint_linear_39_4582_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M27.13 31.41C29.49 31.41 31.41 29.49 31.41 27.13C31.41 24.77 29.49 22.85 27.13 22.85C24.77 22.85 22.85 24.77 22.85 27.13C22.85 29.49 24.77 31.41 27.13 31.41Z" fill="url(#paint_radial_39_4583_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M16.86 21.14C19.23 21.14 21.14 19.22 21.14 16.86C21.14 14.5 19.23 12.58 16.86 12.58C14.5 12.58 12.58 14.5 12.58 16.86C12.58 19.22 14.5 21.14 16.86 21.14Z" fill="url(#paint_radial_39_4584_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
