@@ -1,11 +1,14 @@
 // site bar
 .info {
   .info_left_right {
-    padding-left: 14px;
     .info_left {
       width: 288px;
       height: 100vh;
+      position: fixed;
+      top: 48px;
+      left: 0px;
       background: $black_grey;
+      padding-left: 14px;
       .info_left_text {
         padding-top: 8px;
         color: $white;
@@ -63,5 +66,50 @@
         }
       }
     }
+    // .info_right {
+    //   padding-top: 227px;
+    //   .info_right_wrapper {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     gap: 16px;
+    //     .info_right_title {
+    //       color: $white;
+    //       font-family: $poppins_font;
+    //       font-size: 36px;
+    //       font-weight: 700;
+    //       line-height: 54px;
+    //       width: 600px;
+    //       text-align: center;
+    //       span {
+    //         color: $green;
+    //       }
+    //     }
+    //     .info_right_suptitle {
+    //       color: $text_grey;
+    //       font-family: $poppins_font;
+    //       font-size: 18px;
+    //       font-weight: 400;
+    //       line-height: 27px;
+    //       width: 540px;
+    //       text-align: center;
+    //     }
+    //     .info_right_btn {
+    //       font-size: 18px;
+    //       font-weight: 400;
+    //       line-height: 27px;
+    //       color: $white;
+    //       font-family: $poppins_font;
+    //       width: 169px;
+    //       height: 43px;
+    //       border-radius: 8px;
+    //       background: $green;
+    //       display: flex;
+    //       justify-content: center;
+    //       align-items: center;
+    //     }
+    //   }
+    // }
   }
 }
