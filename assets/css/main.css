@@ -96,13 +96,14 @@ header .header__wrapper ul li {
   cursor: pointer;
 }
 
-.info .info_left_right {
-  padding-left: 14px;
-}
 .info .info_left_right .info_left {
   width: 288px;
   height: 100vh;
+  position: fixed;
+  top: 48px;
+  left: 0px;
   background: rgba(0, 0, 0, 0.493);
+  padding-left: 14px;
 }
 .info .info_left_right .info_left .info_left_text {
   padding-top: 8px;
