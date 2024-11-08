@@ -49,7 +49,7 @@ a {
 
 body {
   width: 100%;
-  height: 100vh;
+  height: 100svh;
   background: url(../images/png/bodybg.png) no-repeat center;
   background-size: cover;
 }
@@ -61,7 +61,7 @@ header {
   display: flex;
   align-items: center;
 }
-header .header__wrapper {
+header .header_wrapper {
   max-width: 98%;
   width: 100%;
   margin: 0 auto;
@@ -69,7 +69,7 @@ header .header__wrapper {
   align-items: center;
   justify-content: space-between;
 }
-header .header__wrapper h1 {
+header .header_wrapper h1 {
   color: #fff;
   font-family: "Urbanist", serif;
   font-size: 22px;
@@ -78,15 +78,15 @@ header .header__wrapper h1 {
   text-align: center;
   cursor: pointer;
 }
-header .header__wrapper h1 span {
+header .header_wrapper h1 span {
   color: rgb(57, 150, 95);
 }
-header .header__wrapper ul {
+header .header_wrapper ul {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-header .header__wrapper ul li {
+header .header_wrapper ul li {
   color: #fff;
   font-family: "Urbanist", serif;
   font-size: 16px;
@@ -104,6 +104,7 @@ header .header__wrapper ul li {
   left: 0px;
   background: rgba(0, 0, 0, 0.493);
   padding-left: 14px;
+  overflow-y: scroll;
 }
 .info .info_left_right .info_left .info_left_text {
   padding-top: 8px;
@@ -134,28 +135,233 @@ header .header__wrapper ul li {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
-.info .info_left_right .info_left_list {
+.info .info_left_right .info_left .info_left_list {
   padding-top: 28px;
   display: flex;
   flex-direction: column;
   gap: 17px;
 }
-.info .info_left_right .info_left_list .info_left_li {
+.info .info_left_right .info_left .info_left_list .info_left_li {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.info .info_left_right .info_left_list .info_left_li .info_left_text_wrapper .info_left_li_text {
+.info .info_left_right .info_left .info_left_list .info_left_li .info_left_text_wrapper .info_left_li_text {
   color: #fff;
   font-family: "Urbanist", serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
-.info .info_left_right .info_left_list .info_left_li .info_left_text_wrapper .info_left_li_suptitle {
+.info .info_left_right .info_left .info_left_list .info_left_li .info_left_text_wrapper .info_left_li_suptitle {
   color: rgba(255, 255, 255, 0.7);
   font-family: "Urbanist", serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+.info .info_left_right .info_left::-webkit-scrollbar {
+  display: none;
+}
+.info .info_left_right .info_right .info_right_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 227px 0px;
+}
+.info .info_left_right .info_right .info_right_wrapper .info_right_title {
+  color: #fff;
+  font-family: "Urbanist", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  width: 600px;
+  text-align: center;
+}
+.info .info_left_right .info_right .info_right_wrapper .info_right_title span {
+  color: rgb(57, 150, 95);
+}
+.info .info_left_right .info_right .info_right_wrapper .info_right_suptitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Urbanist", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 540px;
+  text-align: center;
+}
+.info .info_left_right .info_right .info_right_wrapper .info_right_btn {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #fff;
+  font-family: "Urbanist", serif;
+  width: 169px;
+  height: 43px;
+  border-radius: 8px;
+  background: rgb(57, 150, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phone .phone_title {
+  color: #fff;
+  font-family: "Urbanist", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-top: 32px;
+}
+.phone .phone_hr {
+  width: 112px;
+  height: 8px;
+  border-radius: 10px;
+  background: rgb(57, 150, 95);
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.phone .phone_box_wrapper {
+  display: flex;
+  gap: 20px;
+}
+.phone .phone_box_wrapper .phone_box {
+  width: 290.67px;
+  height: 190px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.493);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phone .phone_box_wrapper .phone_box h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Urbanist", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.phone .phone_box_wrapper .phone_box p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Urbanist", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.phone .phone_inp_box {
+  width: 912px;
+  height: 420px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.493);
+  padding: 20px;
+}
+.phone .phone_inp_box .phone_inp_wrappers {
+  display: flex;
+  gap: 20px;
+}
+.phone .phone_inp_box .phone_inp_wrappers .phone_inp_title {
+  color: #fff;
+  font-family: "Urbanist", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.phone .phone_inp_box .phone_inp_wrappers .phone_inp {
+  width: 420px;
+  height: 44px;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.493);
+  color: #fff;
+  padding-left: 15px;
+  margin-top: 8px;
+}
+.phone .phone_inp_box .phone_inp_wrappers .phone_inp1 {
+  width: 295px;
+  height: 44px;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px 0px 0px 8px;
+  background: rgba(0, 0, 0, 0.493);
+  color: #fff;
+  padding-left: 15px;
+  margin-top: 8px;
+}
+.phone .phone_inp_box .phone_inp_wrappers .phone_input_box {
+  width: 137px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.493);
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.phone .phone_inp_box .phone_inp_wrappers .phone_input_box .phone_input_title {
+  color: #fff;
+  font-family: "Urbanist", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.phone .phone_inp_box_wrappers1 {
+  display: flex;
+}
+.phone .phone_inp_title {
+  color: #fff;
+  font-family: "Urbanist", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.phone .phone_title_inpute_math_teremok_vosmy_shestoy_i_igrovoy {
+  width: 872px;
+  height: 192px;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.493);
+  padding-bottom: 130px;
+  padding-left: 15px;
+  color: #fff;
+}
+.phone .phone_btn {
+  border-radius: 8px;
+  width: 158px;
+  height: 40px;
+  background: rgb(57, 150, 95);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */

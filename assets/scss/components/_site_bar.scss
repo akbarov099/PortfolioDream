@@ -13,6 +13,7 @@
       left: 0px;
       background: $black_grey;
       padding-left: 14px;
+      overflow-y: scroll;
 
       .info_left_text {
         padding-top: 8px;
@@ -45,7 +46,6 @@
           background: $info_box;
         }
       }
-    }
 
     .info_left_list {
       padding-top: 28px;
@@ -74,6 +74,29 @@
             font-weight: 400;
             line-height: 21px;
           }
+        }
+        .info_right_suptitle {
+          color: $text_grey;
+          font-family: $poppins_font;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          width: 540px;
+          text-align: center;
+        }
+        .info_right_btn {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          color: $white;
+          font-family: $poppins_font;
+          width: 169px;
+          height: 43px;
+          border-radius: 8px;
+          background: $green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
     }
