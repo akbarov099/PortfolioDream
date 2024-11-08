@@ -1,0 +1,272 @@
+.instrument {
+
+    h3 {
+        padding-top: 60px;
+        color: $white ;
+        font-family: $poppins_font;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    .instrum_lin {
+        width: 112px;
+        height: 8px;
+        border-radius: 10px;
+        background: $green;
+        margin-top: 10px;
+    }
+    .instrum_wrraper {
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 24px;
+        width: 100%;
+
+
+   
+
+        .instrum_card1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card1::before {
+            display: none;
+            content: "html";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card1:hover img {
+            display: none;
+        }
+
+        .instrum_card1:hover::before {
+            display: flex;
+        }
+
+        .instrum_card2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card2::before {
+            display: none;
+            content: "css";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card2:hover img {
+            display: none;
+        }
+
+        .instrum_card2:hover::before {
+            display: flex;
+        }
+
+        .instrum_card3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card3::before {
+            display: none;
+            content: "js";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card3:hover img {
+            display: none;
+        }
+
+        .instrum_card3:hover::before {
+            display: flex;
+        }
+
+        .instrum_card4 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card4::before {
+            display: none;
+            content: "Figma";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card4:hover img {
+            display: none;
+        }
+
+        .instrum_card4:hover::before {
+            display: flex;
+        }
+
+        .instrum_card5 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card5::before {
+            display: none;
+            content: "React js";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card5:hover img {
+            display: none;
+        }
+
+        .instrum_card5:hover::before {
+            display: flex;
+        }
+
+        .instrum_card6 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card6::before {
+            display: none;
+            content: "Telvind css";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card6:hover img {
+            display: none;
+        }
+
+        .instrum_card6:hover::before {
+            display: flex;
+        }
+
+        .instrum_card7 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card7::before {
+            display: none;
+            content: "Swiper js";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card7:hover img {
+            display: none;
+        }
+
+        .instrum_card7:hover::before {
+            display: flex;
+        }
+
+        .instrum_card8 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 213px;
+            height: 124px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 12px;
+            background: $black_grey;
+        }
+
+        .instrum_card8::before {
+            display: none;
+            content: "ANTD";
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .instrum_card8:hover img {
+            display: none;
+        }
+
+        .instrum_card8:hover::before {
+            display: flex;
+        }
+
+
+    }
+}

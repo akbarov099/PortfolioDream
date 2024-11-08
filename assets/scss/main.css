@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/png/bodybg.png) no-repeat center;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  background: rgba(32, 32, 32, 0.918);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+}
+header .header_wrapper {
+  max-width: 98%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header_wrapper .header_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .header_wrapper .menu {
+  margin-top: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+header .header_wrapper .menu .span {
+  width: 16px;
+  height: 0;
+  border: 1.5px solid rgb(255, 255, 255);
+}
+header .header_wrapper h1 {
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+header .header_wrapper h1 span {
+  color: rgb(57, 150, 95);
+}
+header .header_wrapper ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .header_wrapper ul li {
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.info .info_left_right .info_left {
+  width: 288px;
+  height: 100vh;
+  position: fixed;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  top: 48px;
+  left: 0px;
+  background: rgba(32, 32, 32, 0.918);
+  padding-left: 14px;
+}
+.info .info_left_right .info_left .info_left_text {
+  padding-top: 8px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.info .info_left_right .info_left .info_left_box_wrapper {
+  width: 259px;
+  height: 62px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+}
+.info .info_left_right .info_left .info_left_box_wrapper .info_left_box {
+  background: rgb(34, 33, 33);
+  cursor: pointer;
+  padding: 6px 8px 6px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.info .info_left_right .info_left_list {
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.info .info_left_right .info_left_list .info_left_li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info .info_left_right .info_left_list .info_left_li .info_left_text_wrapper .info_left_li_text {
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.info .info_left_right .info_left_list .info_left_li .info_left_text_wrapper .info_left_li_suptitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.work h2 {
+  padding-top: 52px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.work .main_lin {
+  margin-top: 8px;
+  width: 112px;
+  height: 8px;
+  border-radius: 10px;
+  background: rgb(57, 150, 95);
+}
+.work p {
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.work .work_text {
+  padding-top: 6px;
+  width: 280px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.work .work_wrraper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 24px;
+}
+.work .work_card {
+  padding: 20px;
+  margin-top: 20px;
+  gap: 14px;
+  width: 444px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+  display: flex;
+  align-items: center;
+}
+
+.costumer h2 {
+  padding-top: 52px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.costumer .main_lin {
+  margin-top: 8px;
+  width: 112px;
+  height: 8px;
+  border-radius: 10px;
+  background: rgb(57, 150, 95);
+}
+.costumer .costumer_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.costumer .costumer_card {
+  display: flex;
+  justify-content: center;
+  width: 240px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background-color: rgba(32, 32, 32, 0.918);
+}
+.costumer .costumer_wrraper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.costumer .costumer_wrraper::-webkit-scrollbar {
+  display: none;
+}
+
+.hero .main_right {
+  padding-top: 90px;
+}
+.hero .main_right h2 {
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.hero .main_right .main_lin {
+  width: 112px;
+  height: 8px;
+  border-radius: 10px;
+  background: rgb(57, 150, 95);
+  margin-top: 8px;
+}
+.hero .main_right p {
+  padding-top: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.hero .main_right button {
+  width: 181px;
+  height: 43px;
+  border-radius: 8px;
+  background: rgb(57, 150, 95);
+  margin-top: 24px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.instrument h3 {
+  padding-top: 60px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.instrument .instrum_lin {
+  width: 112px;
+  height: 8px;
+  border-radius: 10px;
+  background: rgb(57, 150, 95);
+  margin-top: 10px;
+}
+.instrument .instrum_wrraper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 24px;
+  width: 100%;
+}
+.instrument .instrum_wrraper .instrum_card1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card1::before {
+  display: none;
+  content: "html";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card1:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card1:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card2::before {
+  display: none;
+  content: "css";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card2:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card2:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card3::before {
+  display: none;
+  content: "js";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card3:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card3:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card4::before {
+  display: none;
+  content: "Figma";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card4:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card4:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card5::before {
+  display: none;
+  content: "React js";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card5:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card5:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card6::before {
+  display: none;
+  content: "Telvind css";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card6:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card6:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card7::before {
+  display: none;
+  content: "Swiper js";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card7:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card7:hover::before {
+  display: flex;
+}
+.instrument .instrum_wrraper .instrum_card8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 124px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(32, 32, 32, 0.918);
+}
+.instrument .instrum_wrraper .instrum_card8::before {
+  display: none;
+  content: "ANTD";
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.instrument .instrum_wrraper .instrum_card8:hover img {
+  display: none;
+}
+.instrument .instrum_wrraper .instrum_card8:hover::before {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
