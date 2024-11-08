@@ -66,4 +66,7 @@ body {
     height: 100vh;
     background: url(../images/png/bodybg.png) no-repeat center;
     background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+    overflow-x: hidden; 
 }
