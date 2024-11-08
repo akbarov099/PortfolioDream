@@ -1,0 +1,44 @@
+.hero {
+    .main_right {
+        padding-top: 90px;
+
+        h2 {
+            color: $white;
+            font-family: $poppins_font;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+        }
+
+        .main_lin {
+            width: 112px;
+            height: 8px;
+            border-radius: 10px;
+            background: $green;
+            margin-top: 8px;
+        }
+
+
+        p {
+            padding-top: 24px;
+            color: $text_grey;
+            font-family: $poppins_font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+
+        button {
+            width: 181px;
+            height: 43px;
+            border-radius: 8px;
+            background: $green;
+            margin-top: 24px;
+            color: $white;
+            font-family:$poppins_font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+    }
+}
