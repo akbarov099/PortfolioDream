@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 75px;
   .phone_title {
     color: $white;
     font-family: $poppins_font;
@@ -119,13 +120,7 @@
         gap: 10px;
         margin-top: 8px;
         cursor: pointer;
-        .phone_input_title {
-          color: $white;
-          font-family: $poppins_font;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-        }
+        color: $white;
       }
     }
   }
